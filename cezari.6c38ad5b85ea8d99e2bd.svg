@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2017 by original authors @ fontello.com</metadata>
+<defs>
+<font id="cezari" horiz-adv-x="1000" >
+<font-face font-family="cezari" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="arrow-btn" unicode="&#xe801;" d="M3125 475h-3125v-250h3125v-375l1375 500-1375 500" horiz-adv-x="4500" />
+
+<glyph glyph-name="arrow-left" unicode="&#xe803;" d="M183 416h1417v-134h-1417l200-368-110-66-273 501 273 501 110-66-200-368z" horiz-adv-x="1600" />
+
+<glyph glyph-name="arrow-right" unicode="&#xe805;" d="M1417 416h-1417v-134h1417l-200-368 111-66 272 501-272 501-111-66 200-368z" horiz-adv-x="1600" />
+
+<glyph glyph-name="facebook-white" unicode="&#xe806;" d="M106-112v454h-106v175h106v105c0 143 60 228 231 228h142v-175h-89c-66 0-71-24-71-70l0-88h161l-19-175h-142v-454h-213z" horiz-adv-x="480" />
+
+<glyph glyph-name="instagram-white" unicode="&#xe807;" d="M501 514c-90 0-164-74-164-165s74-165 164-165 165 74 165 165-74 165-165 165z m171 324h-341c-176 0-319-144-319-320v-339c0-176 143-320 319-320h339c176 0 319 144 319 320v341c0 174-143 318-317 318z m-171-743c-140 0-254 113-254 254 0 141 114 255 254 255s254-114 254-255c0-141-113-254-254-254z m250 446c-33 0-62 29-62 63 0 34 29 62 62 62 34 0 63-28 63-62-2-35-29-63-63-63z" horiz-adv-x="1000" />
+
+<glyph glyph-name="arrow-right-small" unicode="&#xe808;" d="" horiz-adv-x="588" />
+
+<glyph glyph-name="arrow-left-small" unicode="&#xe809;" d="" horiz-adv-x="588" />
+</font>
+</defs>
+</svg>
