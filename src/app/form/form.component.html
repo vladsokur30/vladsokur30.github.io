@@ -1,0 +1,40 @@
+<div class="contact-form__wrapper">
+  <h2 class="contact-form__text">Свяжитесь с нами</h2>
+  <form action="WebCalculator.php" [formGroup]="myForm" class="contact-form" novalidate (ngSubmit)="submit()">
+    <mat-form-field class="contact-form__field">
+      <input id="number1" type="text" matInput placeholder="Name" formControlName="userName" maxlength="51" class="contact-form__input">
+      <mat-error *ngIf="myForm.controls['userName'].invalid">
+        Имя должно содержать не более 50 символов
+      </mat-error>
+    </mat-form-field>
+    <mat-form-field class="contact-form__field">
+      <input id="number2" type="email" matInput placeholder="Email" formControlName="userEmail" maxlength="51" class="contact-form__input">
+      <mat-error *ngIf="myForm.controls['userEmail'].invalid">
+        Пожалуйста, введите правильный email
+      </mat-error>
+      <!--<mat-error *ngIf="myForm.controls['userEmail'].errors">-->
+        <!--Email должен содержать не более 50 символов-->
+      <!--</mat-error>-->
+    </mat-form-field>
+    <mat-form-field class="contact-form__field">
+      <input id="number3" type="tel" matInput placeholder="Telephone" formControlName="userPhone" class="contact-form__input">
+      <mat-error *ngIf="myForm.controls['userPhone'].invalid">
+        Телефон должен содержать + () 0-9
+      </mat-error>
+      <!--<mat-error *ngIf="myForm.controls['userPhone'].errors">-->
+        <!--Телефон должен содержать не более 50 символов-->
+      <!--</mat-error>-->
+    </mat-form-field>
+    <mat-form-field class="contact-form__field">
+      <input id="number4" type="text" matInput placeholder="Message" formControlName="userMessage" maxlength="251" class="contact-form__input">
+      <mat-error *ngIf="myForm.controls['userMessage'].invalid">
+        Сообщение должно содержать не более 250 символов
+      </mat-error>
+    </mat-form-field>
+    <div class="contact-form__footer">
+      <h3 id="result" class="contact-form__uploader"></h3>
+      <button class="contact-form__button" [disabled]="myForm.invalid"><span class="contact-form__button-text">Отправить</span><i class="icon icon-b icon-arrow-btn"></i></button>
+    </div>
+  </form>
+</div>
+

@@ -1,0 +1,23 @@
+.line {
+	width: 64px;
+	margin: 0px;
+	color: #fff;
+}
+
+.text-1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color: #fff;
+}
+
+.page-name {
+	width: 100px;
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+.fixed {
+	position: fixed;
+	top: 35vh;
+	left: 3vw;
+}

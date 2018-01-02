@@ -1,0 +1,26 @@
+<div class="catalog">
+  <div class="catalog__item catalog__item-1">
+    <h2 class="catalog__text-title">Каталог</h2>
+    <h3 class="catalog__text-title-2">&mdash; Корпусная мебель</h3>
+    <ul class="catalog__list">
+      <li class="catalog__list-item"><a routerLink="kitchens" class="catalog__link" routerLinkActive="catalog__link-active">Кухни</a></li>
+      <li class="catalog__list-item"><a routerLink="cabinets" class="catalog__link" routerLinkActive="catalog__link-active">Шкафы-купе</a></li>
+      <li class="catalog__list-item"><a href="" class="catalog__link" routerLinkActive="catalog__link-active">Гардеробные комнатые</a></li>
+      <li class="catalog__list-item"><a href="" class="catalog__link" routerLinkActive="catalog__link-active">Детские комнаты</a></li>
+      <li class="catalog__list-item"><a href="" class="catalog__link" routerLinkActive="catalog__link-active">Ванные комнаты</a></li>
+      <li class="catalog__list-item"><a href="" class="catalog__link" routerLinkActive="catalog__link-active">Изделия из камня</a></li>
+    </ul>
+    <h3 class="catalog__text-title-2">&mdash; Мягкая мебель</h3>
+    <ul class="catalog__list">
+      <li class="catalog__list-item"><a href="" class="catalog__link" routerLinkActive="catalog__link-active">Мебель для ресторанов</a></li>
+      <li class="catalog__list-item"><a href="" class="catalog__link" routerLinkActive="catalog__link-active">Офисная мебель</a></li>
+      <li class="catalog__list-item"><a href="" class="catalog__link" routerLinkActive="catalog__link-active">Диваны прямые</a></li>
+      <li class="catalog__list-item"><a href="" class="catalog__link" routerLinkActive="catalog__link-active">Диваны угловые</a></li>
+      <li class="catalog__list-item"><a href="" class="catalog__link" routerLinkActive="catalog__link-active">Кровати</a></li>
+    </ul>
+  </div>
+  <div class="catalog__item catalog__item-2">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+<app-footer-less></app-footer-less>
