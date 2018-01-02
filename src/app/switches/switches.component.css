@@ -1,0 +1,19 @@
+.switches__item {
+	display: inline-block;
+}
+
+.switches__item-offset {
+	margin-right: 16px;
+}
+
+.switches__link {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+}
+
+.switches-home {
+	position: fixed;
+	bottom: 5vh;
+	right: 3vw;
+}

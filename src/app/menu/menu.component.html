@@ -1,0 +1,45 @@
+ <!-- The overlay -->
+<div id="myNav" class="overlay">
+
+  <!--href="javascript:void(0)"-->
+  <i class="overlay__closebtn" onclick="closeNav()"></i>
+
+  <!-- Overlay content -->
+  <div class="overlay__content">
+    <div class="overlay__wrapper">
+      <a routerLink="/home" class="overlay__link" onclick="closeNav()">Главная</a>
+      <a routerLink="/aboutUs" class="overlay__link" onclick="closeNav()">О нас</a>
+      <a routerLink="/catalog" class="overlay__link" onclick="closeNav()">Каталог</a>
+      <a routerLink="/contacts" class="overlay__link" onclick="closeNav()">Контакты</a>
+      <a routerLink="/contact" class="overlay__link" onclick="closeNav()">Связаться</a>
+    </div>
+    <div class="overlay__social-wrapper">
+      <app-social-media></app-social-media>
+    </div>
+    <p class="overlay__text-1">Город Киев, Дарынок, секция <br> Б, второй этаж</p>
+    <a href="tel:+380678688890" class="overlay__link-number">+38 067 868 88 90</a>
+    <p class="overlay__text-2">cezari.salon@gmail.com</p>
+  </div>
+</div>
+ <!-- The overlay end-->
+
+<nav class="nav">
+  <div class="nav__item-1"><a routerLink="/home" class="nav__logo"></a></div>
+  <div class="nav__item-2">
+    <ul class="nav__list">
+      <li class="nav__list_item"><a class="nav__link" routerLink="/home"  routerLinkActive="nav__link-active">Главная</a></li>
+      <li class="nav__list_item"><a class="nav__link" routerLink="/aboutUs" routerLinkActive="nav__link-active">О нас</a></li>
+      <li class="nav__list_item"><a class="nav__link" routerLink="/catalog" routerLinkActive="nav__link-active">Каталог</a></li>
+      <li class="nav__list_item"><a class="nav__link" routerLink="/contacts" routerLinkActive="nav__link-active">Контакты</a></li>
+      <li class="nav__list_item"><a class="nav__link" routerLink="/contact" routerLinkActive="nav__link-active">Связаться</a></li>
+    </ul>
+    <div class="hamb" onclick="openNav()">
+      <div class="hamb__item"></div>
+      <div class="hamb__item"></div>
+      <div class="hamb__item"></div>
+    </div>
+  </div>
+  <div class="nav__item-3"><a href="tel:+380678688890" class="nav__num">+38 067 868 88 90</a></div>
+</nav>
+
+
